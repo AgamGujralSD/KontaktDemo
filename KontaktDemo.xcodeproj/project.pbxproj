@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67752B522181A53A00061C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67752B512181A53A00061C5B /* AppDelegate.swift */; };
+		67752B542181A53A00061C5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67752B532181A53A00061C5B /* ViewController.swift */; };
+		67752B572181A53A00061C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67752B552181A53A00061C5B /* Main.storyboard */; };
+		67752B592181A54F00061C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67752B582181A54F00061C5B /* Assets.xcassets */; };
+		67752B5C2181A54F00061C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67752B5A2181A54F00061C5B /* LaunchScreen.storyboard */; };
+		67752B652181BC8000061C5B /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67752B642181BC8000061C5B /* BeaconManager.swift */; };
+		8E69173355267C98C4A602ED /* Pods_KontaktDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C720C34E422C150B94C49F /* Pods_KontaktDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16611591AED848AC6594FFDE /* Pods-KontaktDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KontaktDemo.release.xcconfig"; path = "Target Support Files/Pods-KontaktDemo/Pods-KontaktDemo.release.xcconfig"; sourceTree = "<group>"; };
+		67752B4E2181A53A00061C5B /* KontaktDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KontaktDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67752B512181A53A00061C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67752B532181A53A00061C5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67752B562181A53A00061C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67752B582181A54F00061C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67752B5B2181A54F00061C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67752B5D2181A54F00061C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67752B632181BBF800061C5B /* KontaktDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KontaktDemo.entitlements; sourceTree = "<group>"; };
+		67752B642181BC8000061C5B /* BeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
+		9D19468E1101681FEA97CEC1 /* Pods-KontaktDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KontaktDemo.debug.xcconfig"; path = "Target Support Files/Pods-KontaktDemo/Pods-KontaktDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C9C720C34E422C150B94C49F /* Pods_KontaktDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KontaktDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67752B4B2181A53A00061C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E69173355267C98C4A602ED /* Pods_KontaktDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E8B9A11C69C4B3AF9447D89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C720C34E422C150B94C49F /* Pods_KontaktDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39864500ABEFCD40950EC8FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D19468E1101681FEA97CEC1 /* Pods-KontaktDemo.debug.xcconfig */,
+				16611591AED848AC6594FFDE /* Pods-KontaktDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		67752B452181A53A00061C5B = {
+			isa = PBXGroup;
+			children = (
+				67752B502181A53A00061C5B /* KontaktDemo */,
+				67752B4F2181A53A00061C5B /* Products */,
+				39864500ABEFCD40950EC8FB /* Pods */,
+				0E8B9A11C69C4B3AF9447D89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67752B4F2181A53A00061C5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67752B4E2181A53A00061C5B /* KontaktDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67752B502181A53A00061C5B /* KontaktDemo */ = {
+			isa = PBXGroup;
+			children = (
+				67752B632181BBF800061C5B /* KontaktDemo.entitlements */,
+				67752B512181A53A00061C5B /* AppDelegate.swift */,
+				67752B532181A53A00061C5B /* ViewController.swift */,
+				67752B642181BC8000061C5B /* BeaconManager.swift */,
+				67752B552181A53A00061C5B /* Main.storyboard */,
+				67752B582181A54F00061C5B /* Assets.xcassets */,
+				67752B5A2181A54F00061C5B /* LaunchScreen.storyboard */,
+				67752B5D2181A54F00061C5B /* Info.plist */,
+			);
+			path = KontaktDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67752B4D2181A53A00061C5B /* KontaktDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67752B602181A54F00061C5B /* Build configuration list for PBXNativeTarget "KontaktDemo" */;
+			buildPhases = (
+				22D396296D1281E56EF12BBC /* [CP] Check Pods Manifest.lock */,
+				67752B4A2181A53A00061C5B /* Sources */,
+				67752B4B2181A53A00061C5B /* Frameworks */,
+				67752B4C2181A53A00061C5B /* Resources */,
+				A31B5AA8DAC4AA19C8829D75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KontaktDemo;
+			productName = KontaktDemo;
+			productReference = 67752B4E2181A53A00061C5B /* KontaktDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67752B462181A53A00061C5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Vikas Mehay";
+				TargetAttributes = {
+					67752B4D2181A53A00061C5B = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 67752B492181A53A00061C5B /* Build configuration list for PBXProject "KontaktDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67752B452181A53A00061C5B;
+			productRefGroup = 67752B4F2181A53A00061C5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67752B4D2181A53A00061C5B /* KontaktDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67752B4C2181A53A00061C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67752B5C2181A54F00061C5B /* LaunchScreen.storyboard in Resources */,
+				67752B592181A54F00061C5B /* Assets.xcassets in Resources */,
+				67752B572181A53A00061C5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22D396296D1281E56EF12BBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KontaktDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A31B5AA8DAC4AA19C8829D75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KontaktDemo/Pods-KontaktDemo-frameworks.sh",
+				"${PODS_ROOT}/KontaktSDK/Cocoapods/iOS/KontaktSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KontaktSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KontaktDemo/Pods-KontaktDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67752B4A2181A53A00061C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67752B652181BC8000061C5B /* BeaconManager.swift in Sources */,
+				67752B542181A53A00061C5B /* ViewController.swift in Sources */,
+				67752B522181A53A00061C5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67752B552181A53A00061C5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67752B562181A53A00061C5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67752B5A2181A54F00061C5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67752B5B2181A54F00061C5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67752B5E2181A54F00061C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67752B5F2181A54F00061C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67752B612181A54F00061C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D19468E1101681FEA97CEC1 /* Pods-KontaktDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KontaktDemo/KontaktDemo.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A8MJV57F4S;
+				INFOPLIST_FILE = KontaktDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koble.EveyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "de06d096-87ea-4909-902d-88e499848104";
+				PROVISIONING_PROFILE_SPECIFIER = EveyDebugProvisioningProfile;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67752B622181A54F00061C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16611591AED848AC6594FFDE /* Pods-KontaktDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KontaktDemo/KontaktDemo.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A8MJV57F4S;
+				INFOPLIST_FILE = KontaktDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koble.EveyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "de06d096-87ea-4909-902d-88e499848104";
+				PROVISIONING_PROFILE_SPECIFIER = EveyDebugProvisioningProfile;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67752B492181A53A00061C5B /* Build configuration list for PBXProject "KontaktDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67752B5E2181A54F00061C5B /* Debug */,
+				67752B5F2181A54F00061C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67752B602181A54F00061C5B /* Build configuration list for PBXNativeTarget "KontaktDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67752B612181A54F00061C5B /* Debug */,
+				67752B622181A54F00061C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67752B462181A53A00061C5B /* Project object */;
+}

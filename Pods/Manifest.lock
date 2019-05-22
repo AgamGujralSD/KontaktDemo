@@ -1,0 +1,16 @@
+PODS:
+  - KontaktSDK (2.0.1)
+
+DEPENDENCIES:
+  - KontaktSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KontaktSDK
+
+SPEC CHECKSUMS:
+  KontaktSDK: 7dc507f20c8821d13132c6ec09089972e9b8bf5b
+
+PODFILE CHECKSUM: 615e19d278f180e8206c2872c80ae0ee5f7efc18
+
+COCOAPODS: 1.6.0.beta.1
